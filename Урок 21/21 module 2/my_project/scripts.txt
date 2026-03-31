@@ -1,0 +1,16 @@
+# 1. Создать окружение
+python -m venv venv
+
+# 2. Активировать (Windows)
+venv\Scripts\activate
+# 2. Активировать (Mac/Linux)
+source venv/bin/activate
+
+# 3. Установить пакеты
+pip install requests
+
+# 4. Сохранить зависимости (чтобы коллега мог запустить)
+pip freeze > requirements.txt
+
+# 5. Установить зависимости коллеги
+pip install -r requirements.txt
