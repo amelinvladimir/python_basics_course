@@ -1,0 +1,85 @@
+{
+  "order_id": "ORD-2024-8847X",
+  "status": "shipped",
+  "created_at": "2024-11-15T14:30:00Z",
+  "updated_at": null,
+  "customer": {
+    "id": 59201,
+    "full_name": "Алексей Иванов",
+    "email": "alexey.ivanov@example.com",
+    "is_verified": true,
+    "tier": "gold",
+    "loyalty_points": 1250.5
+  },
+  "shipping_address": {
+    "country": "Россия",
+    "city": "Москва",
+    "street": "ул. Ленина, д. 15, кв. 42",
+    "postal_code": "101000",
+    "coordinates": {
+      "lat": 55.7558,
+      "lon": 37.6173
+    }
+  },
+  "items": [
+    {
+      "sku": "PY-BOOK-001",
+      "title": "Python для анализа данных",
+      "quantity": 2,
+      "price_per_unit": 899.90,
+      "discount_applied": 0.15,
+      "tags": ["python", "data-science", "bestseller"],
+      "metadata": {
+        "publisher": "O'Reilly",
+        "edition": 3,
+        "in_stock": true
+      }
+    },
+    {
+      "sku": "HW-LAPTOP-X",
+      "title": "Ноутбук DevBook Pro 15\"",
+      "quantity": 1,
+      "price_per_unit": 124999.00,
+      "discount_applied": null,
+      "tags": ["hardware", "laptop", "developer"],
+      "metadata": {
+        "warranty_months": 24,
+        "color": "space_gray",
+        "refurbished": false
+      }
+    }
+  ],
+  "payment": {
+    "method": "card",
+    "transaction_id": "TXN-9988776655",
+    "currency": "RUB",
+    "status_history": [
+      {"status": "pending", "timestamp": "2024-11-15T14:30:05Z"},
+      {"status": "processing", "timestamp": "2024-11-15T14:30:12Z"},
+      {"status": "completed", "timestamp": "2024-11-15T14:31:00Z"}
+    ],
+    "is_refundable": true,
+    "fee": 450.0
+  },
+  "summary": {
+    "subtotal": 126799.80,
+    "total_discount": 269.97,
+    "shipping_cost": 0,
+    "tax": 0,
+    "grand_total": 126529.83,
+    "currency_sign": "₽"
+  },
+  "_links": {
+    "self": "/api/v1/orders/ORD-2024-8847X",
+    "customer": "/api/v1/customers/59201",
+    "invoice": "/api/v1/invoices/INV-2024-4421"
+  },
+  "debug_info": {
+    "request_id": "req_88f7d6c5a2b1",
+    "generated_at": "2024-11-16T09:15:30Z",
+    "warnings": [
+      "Customer tier updated since order placement",
+      "Shipping address modified manually"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Мария",
+  "age": 31,
+  "roles": [
+    "admin",
+    "data_engineer"
+  ],
+  "active": true,
+  "balance": null
+}
