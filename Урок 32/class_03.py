@@ -14,7 +14,7 @@ x.printname()
 class Student(Person):
     def __init__(self, fname, lname, year):
         # В Python также есть функция super(), которая позволяет дочернему классу наследовать все методы и свойства родительского класса
-        super.__init__(self, fname, lname)
+        super().__init__(fname, lname)
 
         # добавляем свойство в наследуемом классе
         self.graduationyear = year
