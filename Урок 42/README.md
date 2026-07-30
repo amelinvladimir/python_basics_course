@@ -33,4 +33,7 @@ git clone git@github.com:httpie/cli.git
 ```
 
 ### Альтернативный вариант - установить [GitHub Desktop](https://desktop.github.com/download/)
-### И в нем скачать проект, указав адрес git@github.com:httpie/cli.git
+### И в нем скачать проект, указав адрес 
+```
+git@github.com:httpie/cli.git
+```
